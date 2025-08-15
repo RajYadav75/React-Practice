@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel">
+        function Login(){
+            return (
+                <div className="d-flex justify-content-center">
+                    <div>
+                        <form className="border border-2 p-4 rounded rounded-2 mt-4 alert alert-dismissible">
+                            <h2 className="bi bi-person-fill">User Login</h2>
+                            <button type="button" data-bs-dismiss="alert" className="btn btn-close"></button>
+                            <dl>
+                                <dt>User Name</dt>
+                                <dd>
+                                    <input type="text" className="form-control"/>
+                                </dd>
+                                <dt>Password</dt>
+                                <dd>
+                                    <input type="password" className="form-control"/>
+                                </dd>
+                            </dl>
+                            <button  className="btn btn-warning w-100">Login</button>
+                        </form>
+                    </div>
+                </div>
+            )
+        }
+        ReactDOM.render(<section><Login/></section>,document.getElementById("root"))
+    </script>
+</head>
+<body class="container-fluid">
+<noscript>Please enable JavaScript on your browser</noscript>
+<div id="root"></div>
+</body>
+</html>

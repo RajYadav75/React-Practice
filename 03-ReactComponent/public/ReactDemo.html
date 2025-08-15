@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Demo</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+        .brand-title {
+            font-family: Arial;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        nav span{
+            font-family: Arial;
+            margin: 0px 20px 0px 20px;
+        }
+    </style>
+    <script type="text/babel">
+        function Navbar() {
+            return (
+                <nav>
+                    <div className="brand-title">Shopper</div>
+                    <div>
+                        <span>Home</span>
+                        <span>Shop</span>
+                        <span>Page</span>
+                        <span>Blog</span>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Search Shopper.com"/>
+                        <button>Search</button>
+                    </div>
+                </nav>
+            )
+        }
+        ReactDOM.render(<header><Navbar/></header>, document.getElementById('root'))
+    </script>
+</head>
+
+<body>
+<noscript>Please Enable JavaScript on your browser</noscript>
+<div id="root"></div>
+</body>
+
+</html>
