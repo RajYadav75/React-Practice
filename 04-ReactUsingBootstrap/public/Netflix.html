@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Netflix | Watch Movies</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+        body {
+            background-size: cover;
+        }
+        .shade{
+            background-color: rgba(0, 0, 0, 0.4);
+            height: 100vh;
+        }
+        .brandTitle {
+            color: red;
+            font-size: 30px;
+            font-weight: bold;
+
+        }
+        main{
+            margin-top: 100px;
+        }
+    </style>
+    <script type="text/babel">
+        function NetflixHeader(){
+            return(
+                <nav className="d-flex justify-content-between p-4">
+                    <div className="brandTitle">NETFLIX</div>
+                    <div className="d-flex justify-content-between">
+                        <div>
+                            <div className="input-group">
+                                <span className="bi bi-translate input-group-text"></span>
+                                <select name="" id="">
+                                    <option value="English">English</option>
+                                    <option value="हिंदी">हिंदी</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button className="btn btn-danger ms-2">Sign In</button>
+                    </div>
+                </nav>
+            )
+        }
+
+        function NetflixRegister() {
+            return (
+                <div className="w-50 mt-4">
+                    <p>Ready to watch? Enter yu email to create or restart your membership</p>
+                    <div className="input-group input-group-lg">
+                        <input type="text" className="form-control" placeholder="Your Email Address" />
+                        <button className="btn btn-danger">Get Started <span className="bi bi-chevron-right"></span></button>
+                    </div>
+                </div>
+            )
+        }
+
+        function NetflixIndex(){
+            return(
+                <div className="shade">
+                    <header>
+                        <NetflixHeader/>
+                    </header>
+                    <section className="text-white">
+                        <NetflixMain/>
+                    </section>
+                </div>
+            )
+        }
+
+        function NetflixMain(){
+            return(
+                <main className="text-center text-white">
+                    <div className="h1">Unlimited Movies. TV Show and more</div>
+                    <div className="h4"> Watch anywhere. Cancel anytime</div>
+                    <div className="d-flex justify-content-center">
+                        <NetflixRegister/>
+                    </div>
+                </main>
+            )
+        }
+        ReactDOM.render(<NetflixIndex/>,document.getElementById("root"))
+    </script>
+</head>
+<body background="https://genotipia.com/wp-content/uploads/2020/04/Netflix-Background-prueba-1.jpg" class="container-fluid">
+<noscript>Please enable javascript on your browser...</noscript>
+<div id="root"></div>
+</body>
+</html>
