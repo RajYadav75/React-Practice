@@ -1,0 +1,34 @@
+[
+  {
+    "title": "DevOps with AWS",
+    "rating": 5,
+    "start": "12 Aug 2025",
+    "faculty": "Ankita Tiwari",
+    "duration": "3 Months",
+    "image": "devops.png"
+  },
+  {
+    "title": "Full Stack Data Science & AI",
+    "rating": 4,
+    "start": "10 Apr 2025",
+    "faculty": "Daniel ",
+    "duration": "3 Months",
+    "image": "datascience.png"
+  },
+  {
+    "title": "Full Stack Java Development",
+    "rating": 5,
+    "start": "20 May 2025",
+    "faculty": "Raj Yadav",
+    "duration": "3 Months",
+    "image": "java.png"
+  },
+  {
+    "title": "Oracle",
+    "rating": 5,
+    "start": "31 Dec 2025",
+    "faculty": "Baba",
+    "duration": "3 Months",
+    "image": "oracle.png"
+  }
+]
