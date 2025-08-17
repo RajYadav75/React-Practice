@@ -10,6 +10,10 @@ import ObjectDataBindingUsingFetch from "./component/objecttypes/ObjectDataBindi
 import ObjectDataBindingUsingJQueryAjax from "./component/objecttypes/ObjectDataBindingUsingJQueryAjax";
 import {ObjectDataBindingUsingAxios} from "./component/objecttypes/ObjectDataBindingUsingAxios";
 import {Courses} from "./component/usingAxios/Courses";
+import {NestedData} from "./component/usingAxios/NestedData";
+import {DateData} from "./component/dateType/DateData";
+import {MomentDateLibrary} from "./component/dateType/MomentDateLibrary";
+import {RegularExpComponent} from "./component/RegularExpression/RegularExpComponent";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,6 +31,21 @@ root.render(
         <h3>Courses</h3>
         <hr/>
         <Courses/>
+        <br/>
+        <h3>Nested Data</h3>
+        <hr/>
+        <NestedData/>
+        <br/>
+        <h3>Date</h3>
+        <hr/>
+        <DateData/>
+        <br/>
+        <h3>Moment-Date</h3>
+        <MomentDateLibrary/>
+        <hr/>
+        <br/>
+        <h3>Regular Expression</h3>
+        <RegularExpComponent/>
     </React.StrictMode>
 );
 
