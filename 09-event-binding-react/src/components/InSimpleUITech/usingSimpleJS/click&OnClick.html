@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Click & OnClick</title>
+    <script>
+        function InsertClick(){
+            document.write("Record Inserted");
+        }
+        function BodyLoad(){
+            let btnDelete = document.createElement("button");
+            btnDelete.innerHTML="Delete";
+            btnDelete.addEventListener("click", function(){
+                document.write("Record Delete");
+            })
+            document.querySelector("body").appendChild(btnDelete);
+
+            document.getElementById("btnUpdate").addEventListener("click", function(){
+                document.write("Record Updated successfully");
+            })
+        }
+    </script>
+</head>
+<body onload="BodyLoad()">
+<button id="btnUpdate">Update</button>
+<button onclick="InsertClick()">Insert</button>
+</body>
+</html>

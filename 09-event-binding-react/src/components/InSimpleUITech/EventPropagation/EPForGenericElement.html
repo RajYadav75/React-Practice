@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Propagation For Generic Element</title>
+    <script>
+        function FormSubmit(e){
+            e.preventDefault();
+            alert("Form data Submitted to Server");
+        }
+    </script>
+</head>
+<body>
+<form onsubmit="FormSubmit(event)">
+    <label for="user">UserName:</label>
+    <input type="text" id="user" name="user">
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>
