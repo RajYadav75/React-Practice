@@ -4,12 +4,28 @@ import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import "../node_modules/bootstrap/dist/css/bootstrap.css"
 import "../node_modules/bootstrap-icons/font/bootstrap-icons.css"
-import {MouseEvent} from "./components/mouseEventWithStyle/MouseEvent";
+import {MouseEvent} from "./components/01.mouseEventWithStyle/MouseEvent";
+import {PhoneMouseEventStyle} from "./components/02.mouseEventWithStyle/PhoneMouseEventStyle";
+import {EventDemo} from "./components/03.mouseEventWithStyle/Event-demo";
+import {MoreEventDemo} from "./components/04.mouseEventWithStyle/MoreEventDemo";
+import {MouseMove} from "./components/05.mouseEventWithStyle/MouseMove";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <MouseEvent />
+      <hr/>
+      <br/>
+      <PhoneMouseEventStyle/>
+      <hr/>
+      <br/>
+      <EventDemo/>
+      <hr/>
+      <br/>
+      <MoreEventDemo/>
+      <hr/>
+      <br/>
+      <MouseMove/>
   </React.StrictMode>
 );
 

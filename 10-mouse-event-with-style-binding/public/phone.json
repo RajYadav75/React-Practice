@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "brand": "Apple",
+    "model": "iPhone 15 Pro",
+    "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/d/9/-original-imagtc2qzgnnuhxh.jpeg?q=70&crop=false"
+  },
+  {
+    "id": 2,
+    "brand": "Samsung",
+    "model": "Galaxy S24 Ultra",
+    "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/z/q/e/-original-imahf42v7jtaubx3.jpeg?q=70"
+  },
+  {
+    "id": 3,
+    "brand": "Google",
+    "model": "Pixel 8 Pro",
+    "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/3/q/3/-original-imahegqhgnafpbzh.jpeg?q=70"
+  },
+  {
+    "id": 4,
+    "brand": "OnePlus",
+    "model": "12",
+    "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/r/9/u/12r-5011110093-oneplus-original-imahfhkfgrtbzh6c.jpeg?q=70"
+  },
+  {
+    "id": 5,
+    "brand": "Xiaomi",
+    "model": "14 Ultra",
+    "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/y/w/s/14-ultra-mzb0gfhin-xiaomi-original-imagzt8cdy56wmzx.jpeg?q=70"
+  },
+  {
+    "id": 6,
+    "brand": "Sony",
+    "model": "Xperia 1 V",
+    "image_url": "https://rukminim2.flixcart.com/image/312/312/mobile/j/v/c/sony-xperia-z1-compact-original-imadwjsknfwgbg3n.jpeg?q=70"
+  },
+  {
+    "id": 7,
+    "brand": "Motorola",
+    "model": "Edge 40 Pro",
+    "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/b/p/0/-original-imahfsy3hwrqavwf.jpeg?q=70"
+  },
+  {
+    "id": 8,
+    "brand": "Nothing",
+    "model": "Phone (2)",
+    "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/7/b/7/-original-imahcfcfhkzhngeb.jpeg?q=70"
+  },
+  {
+    "id": 9,
+    "brand": "Asus",
+    "model": "ROG Phone 8 Pro",
+    "image_url": "https://rukminim2.flixcart.com/image/312/312/joynde80/mobile/b/r/s/asus-rog-zs602kl-1a002in-original-imafbb7yxwncqppd.jpeg?q=70"
+  },
+  {
+    "id": 10,
+    "brand": "Huawei",
+    "model": "P60 Pro",
+    "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/m/k/i/200-pro-5g-elp-nx9-honor-original-imah3cgu3nyhy2uz.jpeg?q=70"
+  },
+  {
+    "id": 11,
+    "brand": "OPPO",
+    "model": "Find X7 Ultra",
+    "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/d/v/i/-original-imah6zxc9492ahqs.jpeg?q=70"
+  },
+  {
+    "id": 12,
+    "brand": "Vivo",
+    "model": "X100 Pro",
+    "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/f/m/s/-original-imagwyhjdvhyujhg.jpeg?q=70"
+  },
+  {
+    "id": 13,
+    "brand": "Realme",
+    "model": "GT 5 Pro",
+    "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/f/9/2/gt-7-pro-gt-7-pro-realme-original-imah6yfaqzbrzqe8.jpeg?q=70"
+  },
+  {
+    "id": 14,
+    "brand": "Honor",
+    "model": "Magic 6 Pro",
+    "image_url": "https://rukminim2.flixcart.com/image/312/312/j70sccw0/mobile/z/g/j/honor-8-pro-duke-l09-v100r001-original-imaexdy3pcegz3df.jpeg?q=70"
+  },
+  {
+    "id": 15,
+    "brand": "Nokia",
+    "model": "G42 5G",
+    "image_url": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/d/p/1/g42-5g-ta-1586-ds-nokia-original-imah54f6wmrhehb3.jpeg?q=70"
+  }
+]
