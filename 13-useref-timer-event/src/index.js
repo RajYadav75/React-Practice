@@ -6,11 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import "../node_modules/bootstrap/dist/css/bootstrap.css"
 import "../node_modules/bootstrap-icons/font/bootstrap-icons.css"
 import {TimeOutUsingUseRef} from "./components/01-TimeOutUsingUseRef/TimeOutUsingUseRef";
+import {IntervalUsingUseRef} from "./components/02-Interval/IntervalUsingUseRef";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <TimeOutUsingUseRef />
+      <br/>
+      <IntervalUsingUseRef/>
   </React.StrictMode>
 );
 
