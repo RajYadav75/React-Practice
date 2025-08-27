@@ -13,6 +13,8 @@ import {FormikFormComponent} from "./components/01.4-Formik-Form-Component/Formi
 import {
     FormikFormComponentInputStateValidation
 } from "./components/01.4-Formik-Form-Component/Input Validations/FormikFormComponentInputStateValidation";
+import {ReactHookForm} from "./components/03-React Hook Form/ReactHookForm";
+import {ReactHookFormTouchEvent} from "./components/03-React Hook Form/ReactHookFormTouchEvent";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -37,6 +39,12 @@ root.render(
         <hr/>
         <br/>
         <FormikFormComponentInputStateValidation/>
+        <hr/>
+        <br/>
+        <ReactHookForm/>
+        <hr/>
+        <br/>
+        <ReactHookFormTouchEvent/>
     </React.StrictMode>
 );
 
