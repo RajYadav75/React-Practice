@@ -23,7 +23,7 @@ export default function Storage() {
     <div>
         <h2>Storage</h2>
         <input type="text" onChange={handleIdChange} placeholder='UserId' />
-        <button className="btn btn-danger" onClick={handleLogin}>Login</button>
+        <button  className="btn btn-danger" onClick={handleLogin}>Login</button>
         <p className='fw-bold mt-4'>{sessionStorage.getItem("userid")} logged in</p>
     </div>
   )
